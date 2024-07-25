@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(31, 29, 29);
+    
+}
+header{
+    border: 5px solid rgb(255, 255, 255);
+    color: white;
+    background-color: red;
+    position: relative;
+}
+nav,h2,ul,li {
+    display: inline-block;
+}
+ul {
+    float: right;
+}
+
+li {
+    padding: 25px 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+li:hover {
+    color: black;
+    cursor: pointer;
+    text-decoration: 3px underline;
+}
+nav {
+margin-left: 10%;
+width: 80%;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 18px;
+}
+.nav2 {
+color: white;
+align-items: center;
+text-align: center;
+vertical-align: middle;
+}
